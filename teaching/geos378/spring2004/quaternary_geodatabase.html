@@ -1,0 +1,62 @@
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us">
+<head>
+<style type="text/css" media="all">
+@import url(xhtml_teaching.css);
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="http://www.gi.alaska.edu/~prakash/print.css" media="print" />
+<title>Anupma Prakash: Teaching - GEOS 378</title>
+<link rel="icon" href="img/teach.ico"></link>
+</head>
+<body>
+<div id="wrapper">
+<div id="container">
+<div id="header"></div>
+<div id="navbar"></div>
+<ul id="navtop">
+<li><a href="../../../personal/index.html">Personal</a></li>
+<li><a href="../../../research/index.html">Research</a></li>
+<li class="selected">Teaching</li>
+<li><a href="../../../students/index.html">Students</a></li>
+<li><a href="../../../outreach/index.html">Outreach</a></li>
+<li><a href="../../../coalfires/index.html" onclick="window.open(this.href,'new'); return false;">Coalfires</a></li>
+</ul>
+<ul id="navbot">
+<li class="selected">GEOS 378 (<a href="../projects.html">Projects</a>)</li>
+<li><a href="../../geos422/index.html">GEOS 422</a></li>
+<li><a href="../../geos458/index.html">GEOS 458</a></li>
+<li><a href="../../geos595/index.html">GEOS 595</a></li>
+<li><a href="../../geos654/index.html">GEOS 654</a></li>
+</ul>
+<div id="contents">
+<div id="heading">GEOS 378 - Spring 2004 student projects</div>
+<div class="subheading">AQC Quaternary Research Geodatabase: Linking Earth Science research to geographic locations (Shane Brodie)</div>
+<p><img class="align_right" src="img/quaternary_geodatabase_georef.jpg" width="250" height="187" alt="Example of a GeoRefS full citation" /> 
+When searching Earth Science research databases such as GeoRefS, WorldCat or even the UAF catalog, it is not possible to search by giving the coordinates of a geographic location, becuase the references either do not have an associated geographic location, or this information is very crude. The Alaska Quaternary Center (AQC) has decided to build a geodatabase in ArcMap and ArcIMS to display Quaternary research field sites in Alaska. The geospatially located field sites are clickable and related to research citations previously downloaded from GeoRefS. This project was the first attempt in building such a geodatabase in ArCGIS.</p>
+<p><img class="align_left" src="img/quaternary_geodatabase_relation.jpg" width="250" height="187" alt="Graphical representation of many to many relationships in the geodatabase" /> 
+The first step in this study was to retrive the citations from GeoRefS as tab-delimited file. This data was imported into Excel and edited till we had only the desired columns spreadsheet. As the geodatabase had a many-to-many (M-N) relationship where many papers can be located at one field site and many field sites can be the focus of one paper, interim tables were created to relate data as shown in the figure. Without the interim tables, ArcMap would only select one field site per paper or one paper per field site.</p>
+<p><img class="align_right" src="img/quaternary_geodatabase_alaska_map.jpg" width="250" height="187" alt="Quaternary map of Alaska with embedded geodatabase" />
+A personal geodatabase was then created in ArcCatalog and all coverage files were imported into the geodatabase by first converting them to feature classes. This figure shows the final map with the geographically located field sites and the author located sites displayed. The database behind this map has Quaternary research papers using the GNIS coverage. Over 500 papers are included by latitude, longitude, and quadrangles. Over a 1000 papers are included by ecoregion. The &#8220;ecoregion&#8221; distinction comes from a field (the &#8220;commoner&quot; field) in the Unified Ecoregions coverage from the USGS in 2001. </p>
+<br />
+<div class="subheading2">Supervisor and contributor:</div>
+Anupma Prakash, Geology and Geophysics, UAF<br />
+Alaska Quaternary Center (AQC), UAF<br />
+Staff, Geographic Information Network of Alaska (GINA), UAF<br />
+</div>
+<div id="contents_bottom"></div>
+</div>
+<div id="footer">
+<span id="update">Last update: 28-Jan-2008<br />
+Copyright &#169; 2007 Anupma Prakash. All rights reserved.</span>
+<span id="validation">
+<span class="paragraph"><a href="http://validator.w3.org/check/referer" title="XHTML validation.">XHTML</a> - 
+<a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS validation.">CSS</a>
+</span>
+</span>
+</div>
+</div>
+</body>
+</html>

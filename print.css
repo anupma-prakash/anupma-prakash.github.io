@@ -1,0 +1,38 @@
+body {
+	background: none;
+	color: #000;
+}
+#container {
+	margin: 0;
+	padding: 0;
+}
+#header, #navbar, #navtop, #navbot {
+	display: none;
+}
+#page_top {
+	display: none;
+}
+#contents {
+	border-top: 0;
+}
+#personal_email {
+	display: block;
+}
+#update {
+	display: none;
+	color: #000;
+	font-family: Tahoma, Arial, sans-serif;
+}
+#validation {
+	display: none;
+}
+img.pdf_link {
+	display: none;
+}
+#footer {
+	display: none;
+}
+#page_bot {
+	margin-top: 50px;
+	font-size: 12px;
+}

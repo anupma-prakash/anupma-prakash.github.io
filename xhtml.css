@@ -1,0 +1,184 @@
+body {
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 1.75em 0;
+	padding: 0;
+	font: medium/14px "Lucida Grand", Verdana, Lucida, Arial, Helvetica, sans-serif;
+	background-color: #900;
+	color: #fff;
+	line-height: 1.4;
+	voice-family: "\"}\""; voice-family: inherit;
+	font-size: medium;
+	text-align: left;
+}
+
+/* Container holding everything together */
+#container {
+	margin: 0;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
+/* Main content */
+#main, #contents, #leftNavigation, #rightNavigation {
+	float: left;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	height: auto;
+}
+#main {
+	width: 32.75em;
+	color: #000;
+	background-color: #ffc;
+	padding-top: 0.5em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
+	padding-bottom: 2em;
+	margin-bottom: 1em;
+}
+#contents {
+	width: 35em;
+	background-color: #900;
+}
+
+/* Styles */
+#heading, #subheading {
+	color: #006;
+	font-weight: bold;
+}
+#heading {
+	font-size: larger;
+	font-style: italic;
+}
+#subheading {
+	font-size: medium;
+	font-style: normal;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#heading, .paragraph {
+	padding-top: 0px;
+	padding-bottom: 15px;
+}
+#leftNavigation {
+	margin: 0;
+	padding: 0;
+	border-style: solid;
+	border-width: none;
+	border-color: #000;
+	margin-top: 0.75em;
+	padding: 0 0.75em;
+	width: 10em;
+	text-align: left;
+	line-height: 1.9em;
+	color: #ffc;
+	font-size: small;
+	font-weight: bold;
+	background-color: #900;
+}
+#leftNavigation a:link, #leftNavigation a:visited {
+	text-decoration: none;
+	color: #ffc;
+	background: transparent;
+}
+#leftNavigation a:hover {
+	text-decoration: none;
+	color: #ffc;
+	background-color: #900;
+	margin: 0 -0.65em;
+	padding: 0.25em 0.65em;
+}
+.navigationItem {
+	border-bottom-width: none;
+	border-bottom-style: none;
+	border-bottom-color: #ffc;
+}
+.mainNavigation {
+	padding: 0;
+	margin: 0;
+	margin-top: -5px;
+}
+#rightNavigation {
+	float: left;
+	border-style: solid;
+	border-width: thin;
+	border-color: #000;
+	background-color: #996;
+	width: 11em;
+	margin-top: 3.5em;
+	padding: 0 0.75em;
+}
+.projects {
+	list-style: none;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+/* Forms */
+label {
+	float: left;
+	width: 8.5em;
+	margin-right: 1em;
+	text-align: right;
+	font-weight: bold;
+	font-size: small;
+	color: #996;
+}
+select {
+	width: 21em;
+	background-color: #cc9;
+	margin-right: 1em;
+}
+label, input, select {
+	margin-bottom: 0.75em;
+}
+
+/* Page footer with validation links */
+#update {
+	float: left;
+	margin-bottom: 30px;
+}
+#validation {
+	float: right;
+	font-weight: bold;
+}
+
+/* Links */
+a {
+	text-decoration: underline;
+}
+.text_link a:link, .text_link a:visited {
+	color: #006;
+	border-bottom: 1px dotted #006;
+}
+.text_link a:hover {
+	color: #006;
+	border-bottom: 1px solid #006;
+}
+
+/* Footer */
+#footer {
+	width: 525px;
+	text-align: left;
+	text-decoration: none;
+	margin: 0;
+	margin-left: 2em;
+	padding: 0 1.25em 2em 0;
+	border: 0;
+	background-color: #900;
+	color: #ffc;
+	font-size: small;
+	font-weight: normal;
+}
+#footer a:link, #footer a:visited {
+	color: #ffc;
+	background: transparent;
+	/*border-bottom: 1px dotted #ffc;*/
+}
+#footer a:hover {
+	color: #ffc;
+	background: transparent;
+	/*border-bottom: 1px solid #ffc;*/
+}

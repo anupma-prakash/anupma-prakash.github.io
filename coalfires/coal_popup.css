@@ -1,0 +1,22 @@
+/* CSS Document */
+
+   
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	text-align: center;
+}
+
+#popup_content {
+	width: 97%;
+	margin-right: auto;
+	margin-left: auto;
+	
+/*	margin-top: 18px;
+	padding: 20px;
+	border: 1px solid #CCCCCC;*/
+	
+	text-align: left;
+}
