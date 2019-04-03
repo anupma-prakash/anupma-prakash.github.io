@@ -1,0 +1,201 @@
+body {
+	text-align: center;
+	margin: 25px 0;
+	padding: 0;
+	font: medium/16px "Lucida Grand", Verdana, Lucida, Arial, Helvetica, sans-serif;
+	background-color: #900;
+	color: #fff;
+	line-height: 1.4;
+	voice-family: "\"}\""; voice-family: inherit;
+	font-size: large;
+}
+html>body {
+	font-size: large;
+}
+html>body div#main {
+	height: 551px;
+}
+
+/* Container holding everything together */
+#container {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	text-align: left;
+}
+
+/* Main content */
+#main, #contents, #leftSide, #rightSide {
+	float: left;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+#main {
+	color: #000;
+	background-color: #ffc;
+	width: 708px;
+	height: 551px;
+}
+#contents {
+	width: 708px;
+	height: 600px;
+}
+#leftSide, #rightSide {
+	width: 46px;
+	height: inherit;
+}
+	
+/* Navigation buttons */
+#navigationBackButton, #navigationHomeButton, #navigationNextButton {
+	position: absolute;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	margin-top: 526px;
+}
+#navigationBackButton {
+	margin-left: 626px;
+}
+#navigationHomeButton {
+	margin-left: 655px;
+}
+#navigationNextButton {
+	margin-left: 684px;
+}
+
+a img {
+	border: none;
+}
+
+/* Boundary graphics */
+#topLeft, #topMiddle, #topRight, #leftBoundary, #rightBoundary, #bottomLeft, #bottomMiddle, #bottomRight {
+	float: inherit;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+#topLeft {
+	background: url(images/frame_topleft.gif) no-repeat;
+	width: 46px;
+	height: 61px;
+}
+#topMiddle {
+	background: url(images/frame_topmiddle.gif) no-repeat;
+	width: 708px;
+	height: 26px;
+}
+#topRight {
+	background: url(images/frame_topright.gif) no-repeat;
+	width: 46px;
+	height: 26px;
+}
+#leftBoundary {
+	background: url(images/left_fill.gif) repeat-y;
+	width: 46px;
+	height: 516px;
+}
+#rightBoundary {
+	background: url(images/right_fill.gif) repeat-y;
+	width: 46px;
+	height: 487px;
+}
+#bottomLeft {
+	background: url(images/frame_bottomleft.gif) no-repeat;
+	width: 46px;
+	height: 23px;
+}
+#bottomMiddle {
+	background: url(images/frame_bottommiddle.gif) no-repeat;
+	width: 708px;
+	height: 23px;
+}
+#bottomRight {
+	background: url(images/frame_bottomright.gif) no-repeat;
+	width: 46px;
+	height: 46px;
+}
+#filler1, #filler2 {
+	width: 46px;
+	height: 0px;
+}
+
+/* Page footer with validation links */
+#footer {
+	clear: both;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #900;
+	color: #ffc;
+	font-size: small;
+	font-weight: bold;
+}
+#footer a:link {
+	text-decoration: none;
+	color: #ffc;
+	background: transparent;
+}
+#footer a:visited {
+	text-decoration: none;
+	color: #ffc;
+	background: transparent;
+}
+#footer a:hover {
+	text-decoration: underline;
+	color: #ffc;
+	background: transparent;
+}
+
+/* Chapter index graphics layout */
+#chapter_main, #chapter_one, #chapter_two, #chapter_three, #chapter_four, #chapter_five, #chapter_six {
+	position: absolute;
+	float: left;
+	font-size: medium;
+	font-weight: bold;
+	font-style: italic;
+	border-color: transparent;
+	color: #006;
+}
+#chapter_one a:link, #chapter_one a:visited, #chapter_two a:link, #chapter_two a:visited, #chapter_three a:link, #chapter_three a:visited {
+	text-decoration: none;
+	color: #006;
+}
+#chapter_four a:link, #chapter_four a:visited, #chapter_five a:link, #chapter_five a:visited, #chapter_six a:link, #chapter_six a:visited {
+	text-decoration: none;
+	color: #006;
+}
+#chapter_one a:hover, #chapter_two a:hover, #chapter_three a:hover, #chapter_four a:hover, #chapter_five a:hover, #chapter_six a:hover {
+	text-decoration: underline;
+	color: #006;
+}
+#chapter_main {
+	margin-top: 5px;
+	margin-left: 15px;
+}
+#chapter_one {
+	margin-top: 365px;
+}
+#chapter_two {
+	margin-top: 435px;
+	margin-left: 120px;
+}
+#chapter_three {
+	margin-top: 465px;
+	margin-left: 240px;
+}
+#chapter_four {
+	margin-top: 465px;
+	margin-left: 370px;
+}
+#chapter_five {
+	margin-top: 435px;
+	margin-left: 490px;
+}
+#chapter_six {
+	margin-top: 365px;
+	margin-left: 610px;
+}

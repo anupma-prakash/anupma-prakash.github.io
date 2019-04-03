@@ -1,0 +1,34 @@
+body {
+	background: none;
+	color: #000;
+}
+
+/* Extra info pages */
+#extra_info {
+	border: none;
+}
+
+/* Boundary graphics */
+#topLeft, #topMiddle, #topRight, #leftBoundary, #rightBoundary, #bottomLeft, #bottomMiddle, #bottomRight {
+	display: none;
+}
+
+/* Extra buttons */
+#start, #information, #resources, #sitemap, #text_only {
+	display: none;
+}
+
+/* Navigation buttons */
+#navigationNextButton, #navigationHomeButton, #navigationBackButton {
+	display: none;
+}
+
+/* Page footer with validation links */
+#footer, #extra_footer {
+	visibility: hidden;
+}
+
+/* Copyright */
+#copyright, #copyright_extra {
+	visibility: visible;
+}

@@ -1,0 +1,235 @@
+body {
+	text-align: center;
+	margin: 25px 0;
+	padding: 0;
+	font: medium/16px "Lucida Grand", Verdana, Lucida, Arial, Helvetica, sans-serif;
+	background-color: #900;
+	color: #fff;
+	line-height: 1.4;
+	voice-family: "\"}\""; voice-family: inherit;
+	font-size: large;
+}
+html>body {
+	font-size: large;
+}
+html>body div#main {
+	height: 551px;
+}
+
+/* Container holding everything together */
+#container {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	text-align: left;
+}
+
+/* Main content */
+#main, #contents, #leftSide, #rightSide {
+	float: left;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+#main {
+	color: #000;
+	background-color: #ffc;
+	width: 708px;
+	height: 551px;
+}
+#contents {
+	width: 708px;
+	height: 600px;
+}
+#leftSide, #rightSide {
+	width: 46px;
+	height: inherit;
+}
+
+#heading {
+	color: #ffc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: -15px;
+}
+	
+/* Navigation buttons */
+#start, #information, #resources, #sitemap, #text_only {
+	position: relative;
+	float: left;
+	padding: 0;
+	border: 0;
+	margin-left: -100px;
+	margin-top: 5px;
+}
+#gilogo, #nasalogo, #asgplogo {
+	position: relative;
+	float: left;
+	padding: 0;
+	border: 0;
+	margin-left: -110px;
+}
+#gilogo {
+/*	margin-top: 170px;*/
+	margin-top: 140px;
+}
+#nasalogo {
+/*	margin-top: 255px;*/
+	margin-top: 225px;
+}
+#asgplogo {
+	margin-left: -120px;
+/*	margin-top: 335px;*/
+	margin-top: 305px;
+}
+
+a img {
+	border: none;
+}
+
+/* Boundary graphics */
+#topLeft, #topMiddle, #topRight, #leftBoundary, #rightBoundary, #bottomLeft, #bottomMiddle, #bottomRight {
+	float: inherit;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+#topLeft {
+	background: url(images/frame_topleft_cover.gif) no-repeat;
+	width: 46px;
+	height: 61px;
+}
+#topMiddle {
+	background: url(images/frame_topmiddle.gif) no-repeat;
+	width: 708px;
+	height: 26px;
+}
+#topRight {
+	background: url(images/frame_topright.gif) no-repeat;
+	width: 46px;
+	height: 26px;
+}
+#leftBoundary {
+	background: url(images/left_fill_cover.gif) repeat-y;
+	width: 46px;
+	height: 516px;
+}
+#rightBoundary {
+	background: url(images/right_fill.gif) repeat-y;
+	width: 46px;
+	height: 487px;
+}
+#bottomLeft {
+	clear: both;
+	background: url(images/frame_bottomleft_cover.gif) no-repeat;
+	margin-left: -94px;
+	width: 140px;
+	height: 90px;
+}
+#bottomMiddle {
+	background: url(images/frame_bottommiddle.gif) no-repeat;
+	width: 708px;
+	height: 23px;
+}
+#bottomRight {
+	background: url(images/frame_bottomright.gif) no-repeat;
+	width: 46px;
+	height: 46px;
+}
+#filler1, #filler2, #filler3 {
+	width: 46px;
+	height: 0px;
+}
+
+/* Credits */
+#credits {
+	color: #ffc;
+	font-size: 15px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+#credits a:link, #credits a:visited {
+	color: #ffc;
+	border-bottom: 1px dotted #ffc;
+}
+#credits a:hover {
+	color: #ffc;
+	border-bottom: 1px solid #ffc;
+}
+
+/* Page footer with validation links */
+#footer_cover {
+	clear: both;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #900;
+	color: #ffc;
+	font-size: small;
+	font-weight: normal;
+}
+
+/* Chapter index graphics layout */
+#chapter_main, #chapter_one, #chapter_two, #chapter_three, #chapter_four, #chapter_five, #chapter_six {
+	position: absolute;
+	float: left;
+	font-size: medium;
+	font-weight: bold;
+	font-style: italic;
+	border-color: transparent;
+	color: #006;
+}
+#chapter_one a:link, #chapter_one a:visited, #chapter_two a:link, #chapter_two a:visited, #chapter_three a:link, #chapter_three a:visited {
+	text-decoration: none;
+	color: #006;
+}
+#chapter_four a:link, #chapter_four a:visited, #chapter_five a:link, #chapter_five a:visited, #chapter_six a:link, #chapter_six a:visited {
+	text-decoration: none;
+	color: #006;
+}
+#chapter_one a:hover, #chapter_two a:hover, #chapter_three a:hover, #chapter_four a:hover, #chapter_five a:hover, #chapter_six a:hover {
+	text-decoration: underline;
+	color: #006;
+}
+#chapter_main {
+	margin-top: 5px;
+	margin-left: 15px;
+}
+#chapter_one {
+	margin-top: 365px;
+}
+#chapter_two {
+	margin-top: 435px;
+	margin-left: 120px;
+}
+#chapter_three {
+	margin-top: 465px;
+	margin-left: 240px;
+}
+#chapter_four {
+	margin-top: 465px;
+	margin-left: 370px;
+}
+#chapter_five {
+	margin-top: 435px;
+	margin-left: 490px;
+}
+#chapter_six {
+	margin-top: 365px;
+	margin-left: 610px;
+}
+#navigationNextButton {
+	position: absolute;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	margin-top: 526px;
+	margin-left: 684px;
+}
