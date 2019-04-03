@@ -1,0 +1,631 @@
+/* CSS Document */
+
+/* CSS required for logos to stick to bottom of page */
+
+/*html
+{
+height: 100%;
+}
+
+body
+{
+height: 100%;
+}
+
+#topcontainer
+{
+position: relative;
+min-height: 100%;
+}
+
+* html #topcontainer
+{
+height: 100%;
+}
+
+#bottomcontainer
+{
+position: relative;
+margin-top: -40px;
+}*/
+
+/* End code for logo position trick
+   http://www.themaninblue.com/writing/perspective/2005/08/29/?styles=   */
+   
+body {
+	background-image: url(../images/main/treesbk-brick5.jpg);
+	background-repeat: repeat-x;
+	background-color: #692c1b;
+	background-position:top left;
+	text-align:center;
+	margin-top:40px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+#page_top {
+	width: 900px;
+	height: auto;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:left;
+	/*border:solid thin #CC0000;*/
+}
+
+#page_mid {
+	width: 899px;
+	height:auto;
+	background-image:url(../images/page_mid_wide.png);
+	background-repeat:repeat-y;
+    background-color:white;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:left;
+	padding-top: 1px;
+	padding-bottom: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 12px;
+	line-height: 18px;
+	/*border:solid thin #CC0000;*/
+}
+
+#content_area {
+	width: 645px;
+	min-height: 450px;
+	float: right;
+	padding: 0px 5px 0px 5px;
+	margin-left: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 12px;
+	line-height: 18px;
+	color:#333333;
+	/*border:solid thin #CC0000;*/
+}
+
+#printbuttons {
+	width: auto;
+	height: 30px;
+	text-align: right;
+	margin-top: -10px;
+}
+
+#printbuttons_intro {
+	width: auto;
+	height: 15px;
+	text-align: right;
+	margin-top: 3px;
+}
+
+#button {
+	width: 175px;
+	height: 80px;
+	margin-right: 3px;
+	display: inline;
+}
+
+#page_bot {
+	width: 900px;
+	height: 41px;
+	background-image:url(../images/page_bot_wide.png);
+	background-repeat:no-repeat;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:left;
+	border:none;
+	/*border:solid thin #CC0000;*/
+}
+
+#logos {
+	margin-top: -200px;
+	margin-left: 124px;
+	padding-top: 10px;
+	float: left;
+	width: 162px;
+	height: 193px;
+	background-image:url(../images/logos3.png);
+	background-repeat:no-repeat;
+	background-position: center bottom;
+	/*border:solid thin #CC0000;*/	
+}
+
+.logoimg {
+	margin-left: 7px;
+}
+
+#home_button {
+	width: 143px;
+	height: 32px;
+	padding-top:108px;
+	padding-left: 26px;	
+}
+
+#pagetitle {
+	width: 320px;
+	height: 30px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #E7ECD5;
+	font-variant: small-caps;
+	line-height: 29px;
+	text-align: left;
+	padding-top:51px;
+	padding-left: 185px;
+	letter-spacing: .04em;
+}
+
+/* Footer Styles */
+
+#footer {
+	width: 899px;
+	height: 30px;
+	margin-left: 176px;
+	padding-top:12px;
+	font-size: 11px;
+	/*border:solid thin #CC0000;*/
+}
+
+a.footer {
+	text-decoration: none;
+	color:#333333;
+}
+
+a.footer:hover {
+	text-decoration:underline;
+	color: #000000;
+}
+
+#footer_extlinks {
+	width:126px;
+	height: 23px;
+	color: #D8D8D8;
+	float: left;
+
+	margin-left:3px;
+	background:url(../images/buttons/ext_links_bk4.png);
+	background-repeat:no-repeat;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#footer_extlink_txt {
+	padding-top:4px;
+}
+
+/*#img_box {
+	width: 500px;
+	height: 188px;
+	border:solid thin #CC0000;
+}*/
+
+.images {
+	margin-top: 20px;
+	padding-right: 10px;
+	
+}
+
+.tab_block {
+	width: 100%;
+}
+
+/* Caption ---------------------------------------------------------------- */
+
+#capbox2 {
+	width: 90%;
+	height: auto;
+	text-align: left;
+	padding: 4px 7px 4px 7px;
+	margin-top: 10px;
+	background: url(../images/capcorner2.png) no-repeat top right #e9e9e9;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #404040;
+	line-height: 15px;
+	border-left:solid 4px #cdcdcb;
+}
+
+
+#capbox {
+	width: 142px;
+	height: auto;
+	background-image:url(../images/capboxbk2.png);
+	background-repeat:repeat-y;
+	background-color: #e9e9e9;
+	margin-top: 24px;
+
+
+	/*border:solid thin #CC0000;*/
+}
+
+#capboxtop {
+	width: 144px;
+	height: 29px;
+	background-image:url(../images/capboxtop.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+#capboxtxt {
+	width: 120px;
+	height: auto;	
+	margin-left: 17px;
+	margin-top: -12px;
+	padding-bottom:5px;
+	text-align: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #404040;
+	line-height: 15px;
+	/*border:solid thin #CC0000;*/
+}
+
+.credit {
+	color: #9D9D9D;
+
+}
+
+#case_study {
+	width: 495px;
+	height: 76px;
+	margin-bottom: 8px;
+	margin-left: 10px;
+}
+
+#case_img {
+	width: 200px;
+	height: 76px;
+	float: left;
+	display: inline;
+}
+
+#case_txt {
+	width: 235px;
+	height: 66px;
+	float: left;
+	display: inline;
+	background-color: #E9E9E9;
+	color:#333333;
+	padding: 5px 10px;
+	margin-left: 5px;
+	font-size: 10px;
+	line-height: 15px;
+/*	border-right-width: 5px;
+	border-right-style: solid;
+	border-right-color: #B6B6B4;*/
+}
+
+#case_end {
+	width: 24px;
+	height: 76px;
+	float: left;
+	display: inline;
+}
+
+.case_txt_title {
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 19px;
+}
+
+case_txt_title a {
+	text-decoration: none;
+}
+
+/* -----------------------------------------------------------------------------  */
+
+
+.page_subtitle {
+	font-weight: bold;
+	background-color: #E2E2E2;
+	border-top-width: 1px;
+	border-left-width: 5px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #C0C0C0;
+	border-bottom-color: #C0C0C0;
+	border-left-color: #C0C0C0;
+	color: #333333;
+	line-height: 24px;
+	padding: 3px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.subt {
+	height: 24px;
+	background: url(../images/subt_background2.png) bottom repeat-x;
+	margin-left: 0px;
+}
+
+.subt_tab {
+	height: 24px;
+	background: url(../images/subt_mid2.png) repeat-x;
+	font-weight: bold;
+	color:#333333;
+	font-size: 11px;
+}
+
+.maintitle {
+	font-weight: bold;
+	font-size: 12px;
+	font-variant: small-caps;
+}
+
+.references {
+	background-color: #DBDBDB;
+}
+
+.list {
+	padding-bottom: 10px;	
+}
+
+a.extlinks {
+	color:#DEDED8;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+a.extlinks:hover {
+	color:#FFFFFF;
+	text-decoration: underline;
+}
+
+
+
+
+
+/*
+------------------
+Navigational links on sidebar
+------------------		*/
+
+#menublock {
+	position:relative;
+	width: 220px;
+	margin-top: -35px;
+	padding-top: 25px;
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	line-height: 20px;
+	font-weight: bold;
+	margin-left: 3px;
+	/*background: url(../images/main/navtop_polar_rs.png) top left no-repeat;*/
+	 
+}
+
+
+
+#navtitle {
+	width: 120px;
+	height: 20px;
+	margin-left: 35px;
+	text-transform:uppercase;
+	font-size: 11px;
+	padding-top: 1px;
+}
+
+#nav1_heading {
+	width: 164px;
+	height: 24px;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom:2px;
+	margin-left:0px;
+	text-align: right;
+	background:url(../images/case.gif) no-repeat bottom left;
+	/*border:solid thin #CC0000;*/
+}
+
+html>body #nav1_heading {margin-bottom:0px;}  /* correction for non IE browsers */
+
+.pdf {
+	width: 20px;
+	height: 20px;
+	padding-right: 5px;
+	padding-top: 3px;
+}
+
+#nav2_heading {
+	width: 200px;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom:1px;
+	margin-top: 10px;
+	text-align: right;
+	background:url(../images/main/navtop_case_studies.png) no-repeat #FFFFFF bottom left;
+	/*background-image:url(images/nav_category_faculty_wd.png);*/
+}
+
+.pdf2 {
+	width: 20px;
+	height: 20px;
+	padding-right: 5px;
+	padding-top: 6px;
+}
+
+.flushleft { margin-left: -1px; }
+
+html>body .flushleft { margin-left: 0px; }  /* correction for non IE browsers */
+
+#navlist {
+	margin: 0; /*removes indent IE and Opera*/
+	padding: 0; /*removes indent Mozilla and NN7*/
+	list-style-type: none; /*turns off display of bullet*/
+	width:200px;
+	margin-left:2px;
+	margin-top:-10px; 
+}
+
+html>body #navlist { margin-left: 0px; padding-top:10px; line-height: 20px;}  /* correction for non IE browsers */
+
+* html #navlist { /* Tan hack */
+ 	width: 162px;
+ 	w\idth: 162px; 
+}
+
+#navlist li {
+	margin: 0px; 
+	padding: 0px;
+	border-bottom: 1px dotted #B0B198;
+}
+
+#navlist a {
+	display: block;
+	padding: 2px 2px 2px 25px;
+	margin: 0px;
+	margin-bottom:1px;
+	margin-top:1px;
+	color:#42412c;
+	background: url(../images/nav_bullet.png) no-repeat left;
+	text-decoration: none;
+}
+
+html>body navlist a { margin-bottom:2px; }  /* correction for non IE browsers */
+
+#navlist a:hover {
+	background: url(../images/nav_bullet3.png) no-repeat left;
+	background-color:#B6B79D;	
+	color: #42412c;
+}
+
+html>body #navlist a:hover { background-color:#bfc0a9; }  /* correction for non IE browsers */
+
+#navlist li.subt { padding-left:40px;  border:none; }
+
+/* Holly Hack the Linkbar REF: http://www.positioniseverything.net/articles/hollyhack.html*/
+/* Hides from IE5/mac \*/
+*html #navlist a, *html #navlist a:hover {height:1%;}
+*html #navlist li {height:1%}
+/* End hide from IE5/mac */
+
+
+div.section-home, div.section {
+	margin-top:-23px;
+	padding-left:36px;
+	background:url(../images/main/section-bar.png) no-repeat  bottom left;
+	width:211px;
+	height:32px;
+	line-height:29px;
+	font-size:15px;
+	/*font-family: "trebuchet ms", Verdana, Tahoma, Arial, Helvetica, san-serif;*/
+	font-family: Arial, Helvetica, san-serif;
+	font-variant: small-caps;
+	/*letter-spacing:.06em;*/
+ }
+ 
+ div.section { margin-top:10px; background:url(../images/main/section-bar2.png) no-repeat  bottom left; }
+
+.staff_photos {
+	width: 100px;
+	height: 128px;
+	padding: 4px;
+	background-color:#DBDBDB;
+	margin: 5px 10px 0 0;
+	float: left;
+	border: 1px #999999 solid;
+}
+.staff_desc {
+	height: 136px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.minispace {
+	font-size: xx-small;
+}
+
+#announcement {
+	width: 380px;
+	height: 35px;
+	padding: 10px;
+	margin: 20px auto;
+	border: 1px dashed #75913A;
+	text-align: center;
+	color: #576B2C;
+	background-color: #D5E2B8;
+}
+
+a.imglinks {
+	text-decoration: none;
+	color: #333333;
+}
+
+a.imglinks:hover {
+	text-decoration: underline;
+	color: #333333;
+}
+
+#util_title {
+	width: 580px;
+	height: 25px;
+	font-size: 11px;
+	color:#E9F0D9;
+	margin-top: -29px;
+	margin-left: 74px;
+	font-weight: bold;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+}
+
+#close_but {
+	width: 100px;
+	height: 25px;
+}
+
+div#content { padding-right:28px; padding-top:10px; margin-left:-10px; }
+
+div#footer  { padding-left:65px; }
+
+
+/*  >> Narrower navigation sidebar ( just comment out to switch back to wide mode )--------------------- */
+
+#menublock { width: 170px; }
+#page_mid { background-image:url(../images/main/page_mid_narrow.png); width:899px; }
+div.section { background:url(../images/main/section-bar-small2.png) no-repeat  bottom left; width:auto; }
+div.section-home { background:url(../images/main/section-bar-small-top.png) no-repeat  bottom left; }
+#navlist { width:162px; } #navlist li { margin-left:6px; }
+/*#content_area { width:675px; margin-left:-20px; margin-right:10px; margin-top:0px; }*/
+div.section, div.section-home {
+	letter-spacing:0.04em;
+	font-size:15px;
+	font-variant: small-caps;
+	font-weight: bold;
+	padding-left:30px;
+	line-height:31px;
+}
+#page_bot {background-image:url("../images/main/page_bot_wide_small2.png"); background-position:bottom; height:65px;}
+#content_area { width:685px; padding:5px 10px 10px 17px; } #content {  } td.maincontent {  }
+td.sidebar { width:180px; }
+
+/* >> end narrower sidebar ------------------------------------------------------------------------------*/
+
+
+#page_bot { margin-bottom:30px; }
+#logoset img { margin-left:11px; margin-bottom:5px; }
+div.copyright { width:250px; margin-top:4px; margin-left:5px; color:#464545; float:left; padding-top:5px; text-transform:uppercase; }
+div.logos { float:left; margin-left:-50px; margin-right:20px; }
+div.pgtitle {
+	font-family: "trebuchet ms", Verdana, Tahoma, Arial, Helvetica, san-serif;
+	font-size:18px;
+	font-weight: bold;
+	margin-bottom:25px;
+	margin-top:-15px;
+	line-height: 120%;
+	color:#8a351c;
+}
+div.pgsubtitle {
+	font-family: "trebuchet ms", Verdana, Tahoma, Arial, Helvetica, san-serif;
+	font-size:16px;
+	font-style: italic;
+	font-weight: bold;
+	margin:-15px 0px 15px 100px;
+	color:#006;
+	/*text-align: center;*/
+}

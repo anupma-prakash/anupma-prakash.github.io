@@ -1,0 +1,10 @@
+AuthUserFile /home/prakash/passwd.httpd
+AuthGroupFile /dev/null
+AuthName "GEOS 422 materials"
+AuthType Basic
+Satisfy any
+
+<Limit GET POST>
+deny from all
+require user rudi geos422
+</Limit>
