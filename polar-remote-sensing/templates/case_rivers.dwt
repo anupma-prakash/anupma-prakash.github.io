@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Polar Remote Sensing Module</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/browsersmart.css" rel="stylesheet" type="text/css" />
+
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+	
+//-->
+</script>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+<style type="text/css">
+<!--
+#page_top { background-image:url(../images/headers/rivers.png); }
+-->
+</style>
+</head>
+
+<body onload="MM_preloadImages('../images/buttons/print2.png','../images/buttons/home_glacier2.png','images/buttons/home_glacier2.gif','../images/buttons/pdf2.gif','../images/buttons/home_rivers2.gif')">
+
+
+<div id="topcontainer">
+
+
+<div id="page_top">
+
+<div id="home_button"><a href="../index.html"><img src="../images/buttons/home_rivers1.gif" alt="home button" name="home" width="141" height="31" border="0" id="home" onmouseover="MM_swapImage('home','','../images/buttons/home_rivers2.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+	<div id="pagetitle"><!-- TemplateBeginEditable name="title" -->About Glaciers <!-- TemplateEndEditable --></div>
+</div>
+
+</div>
+
+<div id="page_mid">
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="flushleft">
+  <tr>
+    <td width="195" valign="top"><!-- TemplateBeginEditable name="menu" -->
+      <div id="menublock">
+        <div id="nav1_heading"><img src="../images/buttons/pdf1.gif" alt="pdf" name="pdf" width="37" height="20" class="pdf" id="pdf" onmouseover="MM_swapImage('pdf','','../images/buttons/pdf2.gif',1)" onmouseout="MM_swapImgRestore()" /></div>
+        <ul id="navlist">
+          <li><a href="../case_landfast/about.html">About Arctic Rivers </a></li>
+          <li><a href="../case_landfast/area.html">Study Area</a></li>
+          <li><a href="../case_landfast/data.html">Input Data</a></li>
+          <li><a href="../case_landfast/processing.html">Data Processing</a></li>
+          <li><a href="../case_landfast/results.html">Results</a></li>
+          <li><a href="../case_landfast/discussion.html">Discussion</a></li>
+          <li><a href="../case_landfast/reading.html">Further Reading</a></li>
+          <li><a href="../case_landfast/faq.html">Key Points and FAQ</a></li>
+          <li><a href="../case_landfast/credits.html">Acknowledgements</a></li>
+        </ul>
+        <div id="nav2_heading"><img src="../images/buttons/pdf1.gif" alt="pdf" name="pdf1" width="37" height="20" class="pdf2" id="pdf1" onmouseover="MM_swapImage('pdf1','','../images/buttons/pdf2.gif',1)" onmouseout="MM_swapImgRestore()" /></div>
+        <ul id="navlist">
+          <li><a href="../case_landfast/faculty_requirements.html">Requirements</a></li>
+          <li><a href="../case_landfast/faculty_aims.html">Aim and Objectives</a></li>
+          <li><a href="../case_landfast/faculty_material.html">Teaching Material</a></li>
+          <li><a href="../case_landfast/faculty_assessment.html">Assessment</a></li>
+          <li><a href="../case_landfast/faculty_extending.html">Extending/Adapting</a></li>
+        </ul>
+      </div>
+    <!-- TemplateEndEditable --></td>
+
+    <td width="510" rowspan="3" valign="top">
+	
+	<div id="content_area">
+	  
+	  <div id="printbuttons"><!-- TemplateBeginEditable name="print" --><a href="#"><img src="../images/buttons/print1.png" alt="print" name="print" width="72" height="24" border="0" id="print" onmouseover="MM_swapImage('print','','../images/buttons/print2.png',1)" onmouseout="MM_swapImgRestore()" /></a><!-- TemplateEndEditable --></div>
+		
+	 
+	  <!-- TemplateBeginEditable name="content" -->
+	  
+	  <div id="content">
+	  
+	  <div id="subt">
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="../images/subt_left2.png" alt="tab_left" width="6" height="24" /></td>
+            <td class="subt_tab">Arctic Rivers </td>
+            <td><img src="../images/subt_right2.png" alt="tab_right" width="6" height="24" /></td>
+          </tr>
+        </table>
+	    </div>
+	  <p>Mendenhall Glacier is a dynamic maritime glacier in southeastern Alaska.  During the last century, the glacier has undergone substantial thinning and volume loss, and concurrently the ice extent has significantly changed. </p>
+	  <p>The retreat of Mendenhall Glacier has been well documented since transitioning from a terrestrial to a lacustrine terminus in the early 20th century.  In order to monitor the rate of retreat, which may be accelerating, recent terminus positions must be accurately determined. </p>
+	  <p>Landsat imagery and aerial photographs are useful for delineating glacier margins, and detecting changes of more than 30-m.
+	    In this study, a June 2000 Landsat image is compared to a mosaic image of aerial photographs acquired in August 2004.  Changes in glacier extent and terminus position are determined. </p>
+	  <p>While long-term behaviour of Mendenhall Glacier conforms to regional climatic trends, the short-term behaviour of the lacustrine terminus appears to be influenced by non-climatic factors such as subglacial topography. </p>
+	  <p>The retreat of Mendenhall Glacier has been well documented since transitioning from a terrestrial to a lacustrine terminus in the early 20th century.  In order to monitor the rate of retreat, which may be accelerating, recent terminus positions must be accurately determined. </p>
+	  <p>Landsat imagery and aerial photographs are useful for delineating glacier margins, and detecting changes of more than 30-m.
+	    In this study, a June 2000 Landsat image is compared to a mosaic image of aerial photographs acquired in August 2004.  Changes in glacier extent and terminus position are determined. </p>
+	  <p>&nbsp;</p>
+	  
+	  </div>
+	  
+	  <!-- TemplateEndEditable --></div></td>
+  </tr>
+  <tr>
+    <td height="30" valign="bottom">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="bottom"><img src="../images/logos4.png" alt="logos" name="logoimg" width="155" height="231" border="0" usemap="#logoimgMapMap" class="logoimg" id="logoimg" />
+      <map name="logoimgMapMap" id="logoimgMapMap">
+        <area shape="rect" coords="36,178,123,222" href="http://www.gi.alaska.edu" target="_blank" />
+        <area shape="rect" coords="32,10,124,51" href="http://www.uaf.edu/" target="_blank" />
+        <area shape="rect" coords="32,63,123,107" href="http://esse21.usra.edu/" target="_blank" />
+        <area shape="rect" coords="35,122,122,166" href="http://www.gi.alaska.edu" target="_blank" />
+      </map></td>
+  </tr>
+</table>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+<div id="page_bot">
+
+
+
+<div id="footer">
+
+		<table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><a href="../disclaimer.html" target="_blank" class="footer">Disclaimer</a> | 
+  <a href="../sitemap.html" target="_blank" class="footer">Site Map</a></td>
+            <td width="7">&nbsp;</td>
+            <td><table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><img src="../images/buttons/ext_links_left.png" alt="left" width="6" height="25" /></td>
+                <td bgcolor="#76776a"><a href="#" class="extlinks" target="_blank">ESSE21 Design Guide</a> </td>
+                <td><img src="../images/buttons/ext_links_right.png" alt="right" width="6" height="25" /></td>
+              </tr>
+            </table></td>
+            <td width="3">&nbsp;</td>
+            <td><table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><img src="../images/buttons/ext_links_left.png" alt="left" width="6" height="25" /></td>
+                <td bgcolor="#76776a"><a href="#" class="extlinks" target="_blank">Prakash Homepage</a>  </td>
+                <td><img src="../images/buttons/ext_links_right.png" alt="right" width="6" height="25" /></td>
+              </tr>
+            </table></td>
+            <td width="3">&nbsp;</td>
+            <td><table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><img src="../images/buttons/ext_links_left.png" alt="left" width="6" height="25" /></td>
+                <td bgcolor="#76776a"><a href="#" class="extlinks" target="_blank">Evaluation Toolkit</a> </td>
+                <td><img src="../images/buttons/ext_links_right.png" alt="right" width="6" height="25" /></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table>
+  </div>
+
+
+	
+</div>
+
+</div>
+
+<div id="bottomcontainer">  
+</div>
+
+
+</body>
+</html>
