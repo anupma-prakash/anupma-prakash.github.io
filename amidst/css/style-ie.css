@@ -1,0 +1,23 @@
+#citation { width: 100%; }
+
+div#day { background-image:url(../images/oral-dividers.png); background-repeat: no-repeat; background-position: 0 0;
+width: 750px; height:94px; text-align: center;  padding:0;   }
+
+div#session_date { color:white;  padding-top: 0px; margin-top:14px; } 
+div.session_concurrent { color:white; text-transform:uppercase; }
+
+#print { margin-top: 0px; 	margin-left: 300px; }
+
+#nav li a:hover { background-color: #244F5F; }
+
+div#hcat { margin:-25px 20px 40px 0;  width: 300px; }
+
+div#pagecontent { text-align:center; padding-top:40px; }
+
+#station-pulldown { margin-left:-315px;}
+
+#stationmenu { margin-left: -25px; }
+
+#pagecontent.links table td.txt { font-size:13px; }
+#pagecontent.links table { margin-top:-35px; }
+#pagecontent.links table.first { margin-top:-35px; }
