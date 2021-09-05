@@ -3,15 +3,15 @@ function reset()
   document.getElementById("books").style.display = 'inline';
   document.getElementById("book_expand").style.display = 'none';
   document.getElementById("book_collapse").style.display = 'none';
-  document.getElementById("chapters").style.display = 'inline';
-  document.getElementById("chapter_expand").style.display = 'none';
-  document.getElementById("chapter_collapse").style.display = 'none';
   document.getElementById("journals").style.display = 'inline';
   document.getElementById("journal_expand").style.display = 'none';
   document.getElementById("journal_collapse").style.display = 'none';
   document.getElementById("journals_current").style.display = 'inline';
   document.getElementById("journal_current_expand").style.display = 'none';
   document.getElementById("journal_current_collapse").style.display = 'none';
+  document.getElementById("journals20").style.display = 'inline';
+  document.getElementById("journal20_expand").style.display = 'none';
+  document.getElementById("journal20_collapse").style.display = 'none';
   document.getElementById("journals15").style.display = 'inline';
   document.getElementById("journal15_expand").style.display = 'none';
   document.getElementById("journal15_collapse").style.display = 'none';
@@ -74,15 +74,15 @@ function switch_init()
     document.getElementById("books").style.display = 'none';
     document.getElementById("book_expand").style.display = 'inline';
     document.getElementById("book_collapse").style.display = 'none';
-    document.getElementById("chapters").style.display = 'none';
-    document.getElementById("chapter_expand").style.display = 'inline';
-    document.getElementById("chapter_collapse").style.display = 'none';
     document.getElementById("journals").style.display = 'none';
     document.getElementById("journal_expand").style.display = 'inline';
     document.getElementById("journal_collapse").style.display = 'none';
     document.getElementById("journals_current").style.display = 'none';
     document.getElementById("journal_current_expand").style.display = 'inline';
     document.getElementById("journal_current_collapse").style.display = 'none';
+    document.getElementById("journals20").style.display = 'none';
+    document.getElementById("journal20_expand").style.display = 'inline';
+    document.getElementById("journal20_collapse").style.display = 'none';
     document.getElementById("journals15").style.display = 'none';
     document.getElementById("journal15_expand").style.display = 'inline';
     document.getElementById("journal15_collapse").style.display = 'none';
@@ -212,6 +212,25 @@ function switch_journals_current(opt)
       document.getElementById("journals_current").style.display = 'none';
       document.getElementById("journal_current_expand").style.display = 'inline';
       document.getElementById("journal_current_collapse").style.display = 'none';
+    }
+  }
+  else {
+    reset();
+  }
+}
+
+function switch_journals20(opt)
+{
+  if (document.getElementById) {
+    if (opt == 'on') {
+      document.getElementById("journals20").style.display = 'inline';
+      document.getElementById("journal20_expand").style.display = 'none';
+      document.getElementById("journal20_collapse").style.display = 'inline';
+    }
+    if (opt == 'off') {
+      document.getElementById("journals20").style.display = 'none';
+      document.getElementById("journal20_expand").style.display = 'inline';
+      document.getElementById("journal20_collapse").style.display = 'none';
     }
   }
   else {
