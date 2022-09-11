@@ -163,6 +163,21 @@ img.align_right, img.pdf_link {
 	color: #C00;
 }
 
+/* Friday Focus */
+#friday_focus {
+	display: inline-block;
+}
+.date {
+	float: left;
+	text-align: right;
+	padding-right: 5px;
+	width: 100px;
+}
+.focus {
+	float: left;
+	width: 500px;
+}
+
 /* vcard */
 abbr {
 	border-bottom-style: none;
