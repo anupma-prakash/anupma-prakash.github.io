@@ -78,10 +78,17 @@ img.align_left, img.align_right {
 #photo_normal {
     display: none;
 }
-ul.publication {
+ul.publication{
     padding-left: 0;
 }
 .t150 {
     overflow: visible;
     height: 100%;
+}
+#courses {
+    padding-left: 15px;
+}
+img.align_left {
+    margin-left: 0;
+    margin-right: 200px;
 }
