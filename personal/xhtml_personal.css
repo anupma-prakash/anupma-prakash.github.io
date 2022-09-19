@@ -137,6 +137,18 @@ p {
 	padding-top: 0;
 	padding-bottom: 0;
 }
+.subheading2 {
+	font-size: 13px;
+	padding-top: 15px;
+	padding-bottom: 0;
+	padding-left: 15px;
+}
+.extra {
+	display: inline;
+}
+.underline {
+	text-decoration: underline;
+}
 ul.publication {
 	list-style-type: none;
 	margin-bottom: 0;
@@ -208,4 +220,37 @@ abbr {
 }
 .label {
 	font-weight: bold;
+}
+
+/* Mobile */
+#mobile_navigation, #mobile_title {
+	display: none;
+}
+#mobile_navigation {
+    line-height: 1em;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+}
+#mobile_navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+#mobile_navigation li {
+    display: inline;
+}
+#mobile_navigation li a {
+    text-decoration: none;
+    padding: 2px;
+}
+#mobile_navigation li.sub:hover {
+
+}
+#photo_mobile {
+	display: none;
+}
+#photo_normal {
+	display: contents;
 }
